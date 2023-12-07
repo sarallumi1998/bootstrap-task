@@ -1,0 +1,94 @@
+#productCarousel {
+    width:100%;
+    }
+
+  #productCarousel .carousel-inner {
+    height:90vh; 
+  }
+
+  #productCarousel img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .navbar-nav .nav-link:hover {
+background-color:	#20b2aa; 
+box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1); 
+}
+
+.star-rating {
+    color: #FFD700; 
+  }
+
+ 
+  .star-rating i {
+    transition: color 0.3s ease;
+  }
+  
+  .page-content {
+    display: none;
+  }
+
+  .active-content {
+    display: block;
+  }
+
+  
+  #contact {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+
+  #contact h2 {
+    color: #343a40;
+  }
+
+  .contact-form {
+    margin-top: 30px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  #contact{
+      background-image:url('https://images.pexels.com/photos/1057313/pexels-photo-1057313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+  #login {
+    
+    padding: 50px 0;
+   
+  }
+
+  #login h2 {
+    color: #343a40;
+  }
+
+  .login-form {
+    max-width: 400px;
+   margin: 0 auto;
+  }
+  #review,#login,#about{
+      background-image:url('https://images.pexels.com/photos/1057313/pexels-photo-1057313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  }
+  #about h1,h2,h3{
+      font-weight: bold;
+  }
+  #contact h4,label{
+color:aqua;
+font-weight:bold;
+  }
+  #contact h2,p{
+      color:purple;
+      font-weight:bold;
+  }
+ 
