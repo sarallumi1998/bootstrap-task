@@ -147,3 +147,14 @@ footer p {
 .footer-column {
     flex: 0 0 48%; /* Adjust the width as needed */
 }
+.buttons {
+    position: absolute;
+    bottom: 0;
+    
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+    margin-right:10px;
+}
